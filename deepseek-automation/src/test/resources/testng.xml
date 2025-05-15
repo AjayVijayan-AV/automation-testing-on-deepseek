@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DeepSeek Test Suite">
+    <test name="Search Functionality Tests">
+        <classes>
+            <class name="tests.SearchTests">
+                <methods>
+                    <include name="testValidSearchReturnsResults"/>
+                    <include name="testEmptySearchShowsError"/>
+                    <include name="testSearchWithSpecialCharacters"/>
+                    <include name="testCaseInsensitiveSearch"/>
+                    <include name="testLongSearchQuery"/>
+                    <include name="testNumericSearch"/>
+                    <include name="testSearchWithMultipleSpaces"/>
+                    <include name="testSearchResultPagination"/>
+                    <include name="testSearchAutocomplete"/>
+                    <include name="testSearchHistoryPersistence"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

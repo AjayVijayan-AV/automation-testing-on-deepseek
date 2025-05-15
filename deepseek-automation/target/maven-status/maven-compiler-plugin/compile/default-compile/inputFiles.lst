@@ -1,0 +1,5 @@
+/workspaces/automation-testing-on-deepseek/deepseek-automation/src/main/java/pages/BasePage.java
+/workspaces/automation-testing-on-deepseek/deepseek-automation/src/main/java/pages/HomePage.java
+/workspaces/automation-testing-on-deepseek/deepseek-automation/src/main/java/pages/SearchPage.java
+/workspaces/automation-testing-on-deepseek/deepseek-automation/src/main/java/utils/ConfigReader.java
+/workspaces/automation-testing-on-deepseek/deepseek-automation/src/main/java/utils/WebDriverFactory.java
